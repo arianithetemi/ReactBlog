@@ -2,6 +2,7 @@ _STORE
 node_modules
 *~
 *.pyc
+package-lock.json
 .grunt
 _SpecRunner.html
 __benchmarks__
