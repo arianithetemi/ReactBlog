@@ -11,8 +11,10 @@ export default function(state = {}, action) {
       // return newState;
       // ES6
       return { ...state, [action.payload.data.id]: action.payload.data };
+
     case FETCH_POSTS:
       return _.mapKeys(action.payload.data, 'id');
+
     default:
       return state;
   }
